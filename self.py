@@ -28,7 +28,7 @@ import io
 import aiohttp
 from urllib.parse import urlparse
 from youtube_dl import YoutubeDL
-from opencc import OpenCC
+from opencc_python import OpenCC
 from hurry.filesize import size
 from pyrogram.errors import BadRequest, Forbidden, NotAcceptable
 from pyrogram.errors.exceptions.bad_request_400 import *
